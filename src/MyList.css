@@ -1,0 +1,15 @@
+.my-list__list{
+    text-decoration: none;
+    color: blueviolet;
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+    background: antiquewhite;
+    margin: auto;
+}
+
+.my-list{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}

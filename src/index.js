@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MyInfo from './MyInfo'
+import MyList from  './MyList'
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <MyInfo ></MyInfo>
+      <MyList items={['строка 1','строка 2','строка 3']} ></MyList>
   </React.StrictMode>
 );
 
