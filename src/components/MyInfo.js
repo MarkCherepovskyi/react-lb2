@@ -10,7 +10,6 @@ function MyInfo () {
             <p className='my-info__body-about-me'>Короткий рассказ о себе</p>
             <MyList className='my-info__body-list' items={items} ></MyList>
         </div>
-
     </div>
   )
 }
